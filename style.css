@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 14px 20px;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* About Container */
+.about-container {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container img {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+/* Container Styles */
+.container {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    max-width: 700px;
+}
+
+/* CTA Button Styles */
+.cta-button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Features List Styles */
+.features-list {
+    margin: 0 auto 40px;
+    max-width: 700px;
+    text-align: left;
+}
+
+.features-list h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.features-list ul {
+    font-size: 18px;
+    list-style-type: disc;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Icon Container */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-container .icon {
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+/* Marketing, Branding, and Testimonials Styles */
+.app-branding img {
+    margin: 20px;
+    width: 150px;
+}
+
+.marketing-strategies, .app-branding, .testimonials {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.marketing-strategies h2, .app-branding h2, .testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.marketing-strategies ul {
+    font-size: 18px;
+    list-style-type: disc;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.testimonials blockquote {
+    border-left: 4px solid #333;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-left: 20px;
+}
+
+/* Mockups Section */
+.mockups-section {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mockups-section img {
+    margin: 20px;
+    width: 300px;
+}
+
+/* User Guide Page */
+.user-guide-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-guide-container h1, .user-guide-container h2, .user-guide-container h3 {
+    color: #333;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+}
